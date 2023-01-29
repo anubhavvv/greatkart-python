@@ -127,7 +127,7 @@
 <div class="row">
     {% for product in products %}
 	<div class="col-md-4">
-		< class="card card-product-grid">
+
 			<div class="img-wrap">
 
 				<a href="{{ product.get_url }}"><img src="{{ product.images.url }}"></a>
@@ -146,7 +146,9 @@
 	</div> <!-- col.// -->
 {% endfor %}
 
-	</div> <!-- col.// -->
+	</div>
+    </main><!-- col.// -->
+</div>
 </div>
 </div><!-- row end.// -->
 
